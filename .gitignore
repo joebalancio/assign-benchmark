@@ -1,0 +1,98 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.rdb
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# WebStorm Specific #
+#####################
+.idea
+.project
+.sass
+.sass-cache
+
+# Node Specific #
+#####################
+.nodemonignore
+/node_modules/
+npm-debug.log
+
+# Heroku Specific #
+#####################
+.env
+/tmp
+
+# Grunt Specific #
+#####################
+.temp
+duplicates.csv
+
+# Emacs Specific #
+#####################
+*~
+
+# Vim Specific #
+#####################
+*.swp
+
+# Vagrant Specific #
+#####################
+.vagrant
+
+# Test Specific #
+#####################
+/test/e2e/selenium/drivers/
+/test/e2e/vms/
+/coverage/
+
+# CSV Output #
+#####################
+
+# Because some Bower packages are real dumb #
+#####################
+/client/public/js/components/jQuery-menu-aim/examples/
+
+# Unminified dev bundles #
+##########################
+/client/public/js/dist/*.js
+/client/public/js/dist/*.js.map
+!/client/public/js/dist/*.min.js
+!/client/public/js/dist/*.min.js.map
+
+# Test bundle #
+###############
+/test/unit/*.test-bundle.js
+/test/unit/test-bundle.*
